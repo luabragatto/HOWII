@@ -623,6 +623,99 @@ section {
   
   /*CONTATO*/
 
-  form {
+  #main-container{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#main-container h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+.titulo-form {
+  color: black;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     color: black;
-  }
+}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus{
+    border-color: #e6bc00;
+}
+
+input[type="submit"] {
+    background-color: #e6d700;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#agreement {
+    margin-right:5px;
+}
+
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+}
+
+.error-validation {
+    color: #f11;
+    position: absolute;
+    top: 72px; 
+}
+
+
+.template {
+    display: none;
+}
+
+/*clientes*/
+
+#clientes {
+text-align: center;
+}
+
+.titulo-clientes {
+  text-align: center;
+  color: #000;
+}
