@@ -1,3 +1,6 @@
+
+//slider
+
 (function () {
 
     var autoUpdate = false,
