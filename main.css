@@ -623,6 +623,16 @@ section {
   
   /*CONTATO*/
 
+  input, label {
+    display: block;
+    width: 100%;
+    outline: none;
+}
+
+input:focus, label:focus{
+    outline: none;
+}
+
   #main-container{
     width: 500px;
     margin-left: auto;
@@ -701,7 +711,7 @@ input[type="submit"] {
 .error-validation {
     color: #f11;
     position: absolute;
-    top: 72px; 
+    top: 57px; 
 }
 
 
