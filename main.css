@@ -15,6 +15,41 @@
   border: 0;
 }
 
+
+
+
+body {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #d39e00;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #7a5d05;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: acumin-pro, system-ui, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-size: 14px;
+  align-items: start;
+  min-height: 100vh;
+}
+
+
+/*menu*/
+
 #menu-h ul {
   list-style: none;
   padding: 0;
@@ -38,25 +73,7 @@
   color: rgb(255, 255, 255);
 }
 
-html {
-  font-size: 10px;
-  font-size: calc(5px + 0.4vw);
-}
-body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  color: #fff;
-}
-a {
-  text-decoration: none;
-  color: #d39e00;
-}
 
-a:hover {
-  text-decoration: none;
-  color: #7a5d05;
-}
 /* Slider */
 .cd-slider {
   position: relative;
@@ -143,6 +160,7 @@ nav div:last-of-type {
   left: auto;
   right: 4%;
 }
+
 .prev,
 .next {
   position: relative;
@@ -210,20 +228,6 @@ nav > div > span {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 100%;
-}
-
-body {
-  font-family: acumin-pro, system-ui, sans-serif;
-  margin: 0;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  font-size: 14px;
-  background-color: #f4f4f4;
-  align-items: start;
-  min-height: 100vh;
-}
 
 
 
@@ -257,23 +261,7 @@ body {
   }
 }
 
-@media screen and (min-width: 40.375em) {
-  .footer__nav > * {
-    flex: 1;
-  }
-
-  .nav__item--extra {
-    flex-grow: 2;
-  }
-
-  .footer__addr {
-    flex: 1 0px;
-  }
-
-  .footer__nav {
-    flex: 2 0px;
-  }
-}
+/*produtos*/
 
 .wrapper {
   height: 420px;
@@ -577,6 +565,8 @@ section {
   margin-right: 1.25em;
 }
 
+/*menu footer*/
+
 #menu-footer ul {
   list-style: none;
   padding: 0;
@@ -637,7 +627,7 @@ input:focus, label:focus{
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fff;
+    background-color: #f1f1f1;
     border-radius: 10px;
     padding: 25px;
 }
@@ -699,6 +689,16 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+input[type="submit"]:hover {
+  background-color: #fff267;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
 #agreement {
     margin-right:5px;
 }
@@ -711,7 +711,7 @@ input[type="submit"] {
 .error-validation {
     color: #f11;
     position: absolute;
-    top: 57px; 
+    top: 70px; 
 }
 
 
